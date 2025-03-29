@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bayers Healthcare", "Bayers Healthcare\Bayers Healthcare.csproj", "{4AAF7EA2-0EC9-42C0-AF48-3B859686060D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0648F30C-D676-43DB-B63F-923DB2767505} = {0648F30C-D676-43DB-B63F-923DB2767505}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BayersHealthcare.Application", "BayersHealthcare.Application\BayersHealthcare.Application.csproj", "{0648F30C-D676-43DB-B63F-923DB2767505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BayersHealthcare.Common", "BayersHealthcare.Common\BayersHealthcare.Common.csproj", "{254049B1-436B-4B86-B7D9-1CA9AFD85829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BayersHealthcare.Domain", "BayersHealthcare.Domain\BayersHealthcare.Domain.csproj", "{5DB25DD3-2378-4836-947F-E32C63A127AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BayersHealthcare.Infrastructure", "BayersHealthcare.Infrastructure\BayersHealthcare.Infrastructure.csproj", "{7040BA65-6484-408F-BA88-442573A89358}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AAF7EA2-0EC9-42C0-AF48-3B859686060D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAF7EA2-0EC9-42C0-AF48-3B859686060D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAF7EA2-0EC9-42C0-AF48-3B859686060D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAF7EA2-0EC9-42C0-AF48-3B859686060D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0648F30C-D676-43DB-B63F-923DB2767505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0648F30C-D676-43DB-B63F-923DB2767505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0648F30C-D676-43DB-B63F-923DB2767505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0648F30C-D676-43DB-B63F-923DB2767505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{254049B1-436B-4B86-B7D9-1CA9AFD85829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254049B1-436B-4B86-B7D9-1CA9AFD85829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254049B1-436B-4B86-B7D9-1CA9AFD85829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254049B1-436B-4B86-B7D9-1CA9AFD85829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB25DD3-2378-4836-947F-E32C63A127AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB25DD3-2378-4836-947F-E32C63A127AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB25DD3-2378-4836-947F-E32C63A127AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB25DD3-2378-4836-947F-E32C63A127AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7040BA65-6484-408F-BA88-442573A89358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7040BA65-6484-408F-BA88-442573A89358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7040BA65-6484-408F-BA88-442573A89358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7040BA65-6484-408F-BA88-442573A89358}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF89EE92-A351-44AF-BA91-8603476E9ACC}
+	EndGlobalSection
+EndGlobal

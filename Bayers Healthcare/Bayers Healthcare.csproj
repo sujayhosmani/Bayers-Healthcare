@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Bayers_Healthcare</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="FirebaseAuthentication.net" Version="4.1.0" />
+	  <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	  <PackageReference Include="MediatR" Version="11.1.0" />
+	  <PackageReference Include="Serilog" Version="2.12.0" />
+	  <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.15" />
+	  <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="6.0.15" />
+	  <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.5" />
+	  <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="6.0.2" />
+	  <PackageReference Include="MongoDB.HealthCheck" Version="4.0.1" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+	  <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BayersHealthcare.Application\BayersHealthcare.Application.csproj" />
+  </ItemGroup>
+
+</Project>
