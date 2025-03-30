@@ -3,8 +3,8 @@
 ## 🚀 Deployed URL  
 🔗 https://bayershealthcareportal.azurewebsites.net
 
-user name: 8553655890
-password:  qwerty
+**user name: 8553655890**
+**password:  qwerty**
 
 ## 🛠 Technology Stack  
 - **.NET Core**  
