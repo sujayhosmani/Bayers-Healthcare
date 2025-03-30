@@ -1,7 +1,7 @@
 # BayersHealthcare API
 
 ## 🚀 Deployed URL  
-🔗 [BayersHealthcare](http://bayershealthcare.azurewebsites.net)  
+🔗 https://bayershealthcareportal.azurewebsites.net
 
 ## 🛠 Technology Stack  
 - **.NET Core**  
